@@ -6,12 +6,8 @@ public class Constants {
     private static final String mongodbHost = "localhost";
     private static final String mongodbName = "test";
     private static final String mongodbCollection = "cord19_7";
-    private static final String verticaDbHost = "bl2.cs.fsu.edu:5433";
     private static final String verticaDbName = "ls_struct_crawl";
-    private static final String MongoUserName = "readUser";
-    private static final String MongoPassWord =  "mongo232";
-    private static final String verticaUserName = "Ritu";
-    private static final String verticaPassWord =  "fightback";
+    
     public enum DbTypeEnum {
         SPARK(0),
         VERTICA(1),
